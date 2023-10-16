@@ -11,6 +11,7 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
+    'arrow-body-style': 0,
     'import/extensions': 0,
     'react/prop-types': 0,
     'linebreak-style': 0,
@@ -32,5 +33,13 @@ module.exports = {
     'no-array-index-key': 0,
     camelcase: 0,
     'import/no-extraneous-dependencies': 'off',
+    // 'react/function-component-definition': 'off',
+    'react/function-component-definition': [
+      'error',
+      {
+        namedComponents: 'arrow-function',
+        unnamedComponents: 'arrow-function',
+      },
+    ],
   },
 };
