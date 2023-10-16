@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Actors = () => {
-  return(
+  return (
     <div>Actors</div>
-  )
+  );
 };
 
 export default Actors;
