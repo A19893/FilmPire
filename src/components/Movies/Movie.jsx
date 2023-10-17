@@ -2,7 +2,10 @@ import React from 'react';
 
 const Movie = () => {
   return (
-    <div>Movies</div>
+    <>
+      <h1> Hi Hi </h1>
+      <div style={{ color: 'black' }}>Movies</div>
+    </>
   );
 };
 
