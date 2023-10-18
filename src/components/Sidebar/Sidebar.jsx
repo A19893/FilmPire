@@ -5,9 +5,9 @@ import {
   ListItem,
   ListItemText,
   ListSubheader,
-  ListItemIcon,
-  Box,
-  CircularProgress,
+  // ListItemIcon,
+  // Box,
+  // CircularProgress,
 } from '@mui/material';
 import { useTheme } from '@emotion/react';
 import { Link } from 'react-router-dom';
@@ -27,6 +27,8 @@ const demoCategories = [
   { label: 'Horror', value: 'horror' },
   { label: 'Animation', value: 'animation' },
 ];
+
+// eslint-disable-next-line no-unused-vars
 const Sidebar = ({ setMobileOpen }) => {
   const theme = useTheme();
   const classes = useStyles();
@@ -52,8 +54,7 @@ const Sidebar = ({ setMobileOpen }) => {
             </ListItem>
           </Link>
         ))}
-      </List>  
-      
+      </List>
       <Divider />
       <List>
         <ListSubheader>Generous</ListSubheader>
